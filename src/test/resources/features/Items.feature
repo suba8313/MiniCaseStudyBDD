@@ -15,7 +15,6 @@ Feature: Item purchase
     
 
 	Scenario: Delete an Item
-#		Given Login Into App
 		When  List of items available in the cart
 		Then  Delete an item from cart
 		
