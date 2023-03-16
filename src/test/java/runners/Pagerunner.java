@@ -11,7 +11,7 @@ features="src//test//resources//features//Items.feature",
   monochrome=true,
   dryRun=false,
   plugin={"pretty"
-		 // "html:target//Reports//HtmlReport.html"
+		//  "html:target//Reports//HtmlReport.html"
   
   }
 )
