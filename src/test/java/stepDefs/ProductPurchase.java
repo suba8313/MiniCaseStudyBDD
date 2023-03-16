@@ -25,7 +25,7 @@ public class ProductPurchase {
 	WebDriverWait wait;
 	String product;
 	@BeforeAll
-	public static void startup() {
+	public static void search() {
 		
 			WebDriverManager.chromedriver().setup();
 			ChromeOptions options = new ChromeOptions();
