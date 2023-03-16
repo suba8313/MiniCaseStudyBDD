@@ -90,8 +90,8 @@ public class ProductPurchase {
 	@When("List of items available in the cart")
 	public void list_of_items_available_in_the_cart() {
 		  List<WebElement> beforeDelete = driver.findElements(By.xpath("//tr[@class='success']"));
-		  int before=beforeDelete.size();
-		  Assert.assertTrue(before>0);
+		  int Delete=beforeDelete.size();
+		  Assert.assertTrue(Delete>0);
 	}
 	@Then("Delete an item from cart")
 	public void delete_an_item_from_cart() {
@@ -101,8 +101,8 @@ public class ProductPurchase {
 	@When("Items should be available in the cart")
 	public void items_should_be_available_in_the_cart() {
 		List<WebElement> beforeDelete = driver.findElements(By.xpath("//tr[@class='success']"));
-		  int before=beforeDelete.size();
-		  Assert.assertTrue(before>0);
+		  int Delete=beforeDelete.size();
+		  Assert.assertTrue(Delete>0);
 	}
 	@Then("Place Order with address")
 	public void place_Order() {
