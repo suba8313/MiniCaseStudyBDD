@@ -1,7 +1,7 @@
 Feature: Item purchase
 
   
- Scenario: Add Item to cart
+ Scenario Outline: Add Item to cart
   
     Given Login Into App
     
